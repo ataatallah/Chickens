@@ -1,2 +1,0 @@
-chickens 1
-chickens 2
