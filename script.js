@@ -1,7 +1,7 @@
 var tmax_optionsGlobal = {
   repeat: -1,
   repeatDelay: 0.65,
-  yoyo: true
+  yoyo: true,
 };
 
 CSSPlugin.useSVGTransformAttr = true;
@@ -17,7 +17,7 @@ $.each($(path), function (i, el) {
     y: "+=" + getRandom(-500, 500),
     rotation: "+=" + getRandom(-720, 720),
     scale: 0,
-    opacity: 0
+    opacity: 0,
   });
 });
 
@@ -27,7 +27,7 @@ var stagger_opts_to = {
   opacity: 1,
   scale: 1,
   rotation: 0,
-  ease: Power4.easeInOut
+  ease: Power4.easeInOut,
 };
 
 tl.staggerTo(path, duration, stagger_opts_to, stagger_val);
